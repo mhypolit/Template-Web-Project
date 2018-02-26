@@ -1,0 +1,14 @@
+﻿<div class="container">
+    <h1>{{ vm.event.name | uppercase }} </h1>
+    <ul class="list-unstyled">
+        <li>Description: {{ vm.event.description }}</li>
+        <li>Start Date: {{ vm.event.startDate }}</li>
+        <li>End Date: {{ vm.event.endDate }}</li>
+        <li>Location: {{ vm.event.location }}</li>
+        <li>Registration Deadline: {{ vm.event.registerBy }}</li>
+        <li>Requirements: {{ vm.event.requirements }}</li>
+        <li>Requested Number of Volunteers: {{ vm.event.numOfVolunteers }}</li>
+        <li>Contact Person: {{ vm.event.name }}</li>
+    </ul>
+    <a ui-sref="events" class="btn">back</a>
+</div>

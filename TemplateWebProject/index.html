@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="content/images/favicon.png">
+    <title>Volunteer Site</title>
+    <!-- Bower Bootstrap Causes Conflicts-->
+    <!--<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">-->
+    <!-- Bootstrap core CSS -->
+    <link href="content/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="content/style.css" rel="stylesheet">
+</head>
+<body ng-app="app">
+    <div class="container">
+        <h1>Hello World!</h1>
+        <a ui-sref="events" class="btn btn-button btn-default">See Events</a>
+    </div>
+    <div class="container">
+        <div data-ui-view></div>
+    </div>
+    <!-- Library Scripts -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <!-- Application Script -->
+    <script src="app/app.module.js"></script>
+    <script src="app/core/core.module.js"></script>
+    <script src="app/core/core.module.js"></script>
+    <script src="app/data/data.module.js"></script>
+    <script src="app/events/events.module.js"></script>
+    <script src="app/router/router.module.js"></script>
+    <!-- Services -->
+    <script src="app/router/routerHelper.js"></script>
+    <script src="app/events/events.routes.js"></script>
+    <script src="app/data/dataContext.js"></script>
+    <!-- Product Controllers -->
+    <script src="app/events/EventsCtrl.js"></script>
+    <script src="app/events/EventDetailsCtrl.js"></script>
+</body>
+</html>
